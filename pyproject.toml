@@ -1,0 +1,5 @@
+[project]
+name = "ovh-status-notification"
+version = "0.0.1"
+dependencies = [ "ovh", "apprise" ]
+

@@ -1,0 +1,17 @@
+[general]
+interval = 30
+
+[auth]
+endpoint="ovh-eu"
+application_key="c64b80d18b16c0ed"
+application_secret="3ddfb462220bf7140fca6f801f905bbd"
+consumer_key="9a60c8744937216759a8909f7282b369"
+
+[vps]
+names = [ "vps-d52e45e1.vps.ovh.net" ]
+
+[notif]
+urls = [
+	"discord://807758750072045588/FXtBb182xtja5yPSkjWVx54kwmI8Uwl46Oyie0aDZe1KmbWaKT-JBFBmyAEkycIZuW4X"
+]
+
