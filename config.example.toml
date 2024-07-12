@@ -1,0 +1,20 @@
+[general]
+# time between checks in seconds
+interval = 30
+
+[auth]
+# generate keys at https://api.ovh.com/createToken/?GET=/vps/*
+endpoint="ovh-eu"
+application_key=""
+application_secret=""
+consumer_key=""
+
+[vps]
+names = [ "vps-deadbeef.vps.ovh.net" ]
+
+[notif]
+# see https://github.com/caronc/apprise?tab=readme-ov-file#productivity-based-notifications for available notification channels
+urls = [
+	"discord://7851398206959376153/aSBzZWUgeW91IHBlZWtpbmcgOykK"
+]
+
